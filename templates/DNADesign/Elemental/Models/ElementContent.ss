@@ -7,7 +7,7 @@
         <% with $HasOneLink %>
             <% if $exists %>
                 <div class="d-flex justify-content-center">
-                    <a href="$URL" class="btn" style="<% if $Up.LinkBackgroundColor %>background-color: #$Up.LinkBackgroundColor;<% end_if %><% if $Up.LinkFontColor %>color: #$Up.LinkFontColor;<% end_if %>" <% if $OpenInNew %>target="_blank" rel="noopener noreferrer"<% end_if %>>$Title</a>
+                    <a href="$URL" class="btn btn-<% if $Up.LinkBackgroundColor %>$Up.LinkBackgroundColorName<% end_if %>" <% if $OpenInNew %>target="_blank" rel="noopener noreferrer"<% end_if %>>$Title</a>
                 </div>
             <% end_if %>
         <% end_with %>

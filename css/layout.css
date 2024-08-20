@@ -2,6 +2,75 @@
 h1, h2, h3 {
     text-transform: uppercase;
 }
+.btn {
+    -webkit-transition: all ease 0.8s !important;
+    -moz-transition: all ease 0.8s !important;
+    transition: all ease 0.8s !important;
+}
+.btn-Red {
+    background-color: #FC0025 !important;
+    color: #ffffff !important;
+}
+.btn-Yellow {
+    background-color: #FFC333 !important;
+    color: #ffffff !important;
+}
+.btn-Green {
+    background-color: #5EA947 !important;
+    color: #ffffff !important;
+}
+.btn-Blue {
+    background-color: #3D7FBB !important;
+    color: #ffffff !important;
+}
+.btn-DarkBlue {
+    background-color: #1E2131 !important;
+    color: white !important;
+}
+.btn-White {
+    background-color: #FFFFFF !important;
+    color: #121111 !important;
+}
+.btn-Grey {
+    background-color: #F0F1F8 !important;
+    color: #121111 !important;
+}
+.btn-Black {
+    background-color: #121111 !important;
+    color: white !important;
+}
+.btn-Red:hover {
+    color: #FC0025 !important;
+    box-shadow: inset 100px 0 0 0 #ffffff;
+}
+.btn-Yellow:hover {
+    color: #FFC333 !important;
+    box-shadow: inset 100px 0 0 0 #ffffff;
+}
+.btn-Green:hover {
+    color: #5EA947 !important;
+    box-shadow: inset 100px 0 0 0 #ffffff;
+}
+.btn-Blue:hover {
+    color: #3D7FBB !important;
+    box-shadow: inset 100px 0 0 0 #ffffff;
+}
+.btn-DarkBlue:hover {
+    color: #1E2131 !important;
+    box-shadow: inset 100px 0 0 0 #FFFFFF;
+}
+.btn-White:hover {
+    color: #FFFFFF !important;
+    box-shadow: inset 100px 0 0 0 #1E2131;
+}
+.btn-Grey:hover {
+    color: #F0F1F8 !important;
+    box-shadow: inset 100px 0 0 0 #1E2131;
+}
+.btn-Black:hover {
+    color: #121111 !important;
+    box-shadow: inset 100px 0 0 0 #FFFFFF;
+}
 /* TinyMCE files */
 .container .ss-htmleditorfield-file.center.embed {
     width: 100% !important;
