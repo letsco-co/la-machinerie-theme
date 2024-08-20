@@ -31,3 +31,25 @@ h1, h2, h3 {
     display: block;
     margin-left: auto;
 }
+
+/* simple slider */
+.simple-slider {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+.simple-slider > div {
+    max-width: 100px;
+}
+.simple-slider > div, .glide li.glide__slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.simple-slider img, .glide li.glide__slide img {
+    width: 100% !important;
+    height: auto !important;
+    max-height: 100px;
+    object-fit: contain;
+}
