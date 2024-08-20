@@ -1,0 +1,28 @@
+{
+    "name": "silverstripe-themes/lamachinerie",
+    "description": "The SilverStripe lamachinerie theme",
+    "type": "silverstripe-theme",
+    "keywords": [
+        "silverstripe",
+        "theme"
+    ],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Let's Co",
+            "homepage": "https://www.letsco.co"
+        }
+    ],
+    "require": {
+        "composer/installers": "*",
+        "silverstripe/framework": ">=5"
+    },
+    "extra": {
+        "expose": [
+            "css",
+            "images",
+            "javascript",
+            "webfonts"
+        ]
+    }
+}

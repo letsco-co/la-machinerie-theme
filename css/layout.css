@@ -1,0 +1,33 @@
+/* Globals */
+h1, h2, h3 {
+    text-transform: uppercase;
+}
+/* TinyMCE files */
+.container .ss-htmleditorfield-file.center.embed {
+    width: 100% !important;
+    display: flex;
+    justify-content: center;
+}
+.container .ss-htmleditorfield-file.leftAlone.embed {
+    width: 100% !important;
+    display: flex;
+    justify-content: flex-start;
+}
+.container .ss-htmleditorfield-file.rightAlone.embed {
+    width: 100% !important;
+    display: flex;
+    justify-content: flex-end;
+}
+.container .ss-htmleditorfield-file.center.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container .ss-htmleditorfield-file.leftAlone.image {
+    display: block;
+    margin-right: auto;
+}
+.container .ss-htmleditorfield-file.rightAlone.image {
+    display: block;
+    margin-left: auto;
+}
