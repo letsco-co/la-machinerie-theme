@@ -7,6 +7,7 @@ h1, h2, h3 {
     -moz-transition: all ease 0.8s !important;
     transition: all ease 0.8s !important;
 }
+/* Buttons */
 .btn-Red {
     background-color: var(--red-color) !important;
     color: var(--white-color) !important;
@@ -70,6 +71,39 @@ h1, h2, h3 {
 .btn-Black:hover {
     color: var(--black-color) !important;
     box-shadow: inset 100px 0 0 0 var(--white-color);
+}
+/* Background */
+.bg-Red {
+    background-color: var(--red-color);
+    color: var(--white-color);
+}
+.bg-Yellow {
+    background-color: var(--yellow-color);
+    color: var(--white-color);
+}
+.bg-Green {
+    background-color: var(--green-color);
+    color: var(--white-color);
+}
+.bg-Blue {
+    background-color: var(--blue-color);
+    color: var(--white-color);
+}
+.bg-DarkBlue {
+    background-color: var(--dark-blue-color);
+    color: var(--white-color);
+}
+.bg-White {
+    background-color: var(--white-color);
+    color: var(--black-color);
+}
+.bg-Grey {
+    background-color: var(--grey-color);
+    color: var(--black-color);
+}
+.bg-Black {
+    background-color: var(--black-color);
+    color: var(--white-color);
 }
 /* TinyMCE files */
 .container .ss-htmleditorfield-file.center.embed {
