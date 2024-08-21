@@ -156,3 +156,42 @@ h1, h2, h3 {
     max-height: 100px;
     object-fit: contain;
 }
+
+/*Element Full Section With Image */
+.model__elementfullsectionwithimage > section {
+    position: relative;
+}
+.model__elementfullsectionwithimage > section > div.container > div {
+    width: 45%;
+}
+.model__elementfullsectionwithimage > section div.img-container {
+    position: absolute;
+    height: 100%;
+    right: 0;
+    top: 0;
+    width: 50%;
+}
+.model__elementfullsectionwithimage > section div.img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.model__elementfullsectionwithimage > section.reverse > div.container > div:first-child {
+    margin-left: auto;
+}
+.model__elementfullsectionwithimage > section.reverse div.img-container {
+    left: 0;
+    right: unset;
+}
+@media screen and (max-width: 992px){
+    .model__elementfullsectionwithimage > section {
+        display: flex;
+        flex-direction: column;
+    }
+    .model__elementfullsectionwithimage > section > div.container > div {
+        width: 100%;
+    }
+    .model__elementfullsectionwithimage > section div.img-container {
+        display: none;
+    }
+}
