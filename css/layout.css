@@ -2,77 +2,128 @@
 h1, h2, h3 {
     text-transform: uppercase;
 }
+.btn, .btn::before {
+    -webkit-transition: all ease 1.8s !important;
+    -moz-transition: all ease 1.8s !important;
+    transition: all ease 1.8s !important;
+}
 .btn {
-    -webkit-transition: all ease 0.8s !important;
-    -moz-transition: all ease 0.8s !important;
-    transition: all ease 0.8s !important;
     margin-top: 20px;
 }
 /* Buttons */
 .btn-Red {
     background-color: var(--red-color) !important;
     color: var(--white-color) !important;
+    position: relative;
+    z-index: 1;
 }
 .btn-Yellow {
     background-color: var(--yellow-color) !important;
     color: var(--white-color) !important;
+    position: relative;
+    z-index: 1;
 }
 .btn-Green {
     background-color: var(--green-color) !important;
     color: var(--white-color) !important;
+    position: relative;
+    z-index: 1;
 }
 .btn-Blue {
     background-color: var(--blue-color) !important;
     color: var(--white-color) !important;
+    position: relative;
+    z-index: 1;
 }
 .btn-DarkBlue {
     background-color: var(--dark-blue-color) !important;
     color: var(--white-color) !important;
+    position: relative;
+    z-index: 1;
 }
 .btn-White {
     background-color: var(--white-color) !important;
     color: var(--black-color) !important;
+    position: relative;
+    z-index: 1;
 }
 .btn-Grey {
     background-color: var(--grey-color) !important;
     color: var(--black-color) !important;
+    position: relative;
+    z-index: 1;
 }
 .btn-Black {
-    background-color: var(--black-color) !important;
     color: var(--white-color) !important;
+    background-color: var(--black-color) !important;
+    position: relative;
+    z-index: 1;
 }
 .btn-Red:hover {
     color: var(--red-color) !important;
-    box-shadow: inset 100px 0 0 0 var(--white-color);
 }
 .btn-Yellow:hover {
     color: var(--yellow-color) !important;
-    box-shadow: inset 100px 0 0 0 var(--white-color);
 }
 .btn-Green:hover {
     color: var(--green-color) !important;
-    box-shadow: inset 100px 0 0 0 var(--white-color);
 }
 .btn-Blue:hover {
     color: var(--blue-color) !important;
-    box-shadow: inset 100px 0 0 0 var(--white-color);
 }
 .btn-DarkBlue:hover {
     color: var(--dark-blue-color) !important;
-    box-shadow: inset 100px 0 0 0 var(--white-color);
 }
 .btn-White:hover {
     color: var(--white-color) !important;
-    box-shadow: inset 100px 0 0 0 var(--black-color);
 }
 .btn-Grey:hover {
     color: var(--grey-color) !important;
-    box-shadow: inset 100px 0 0 0 var(--black-color);
 }
 .btn-Black:hover {
     color: var(--black-color) !important;
-    box-shadow: inset 100px 0 0 0 var(--white-color);
 }
+.btn::before {
+    content: "";
+    position: absolute;
+    width: calc(100% - 1px);
+    height: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -2;
+    transform: scaleX(0);
+    transform-origin: left;
+}
+.btn:hover::before {
+    transform: scaleX(1);
+}
+.btn-Red::before {
+    background-color: var(--white-color);
+}
+.btn-Yellow::before {
+    background-color: var(--white-color);
+}
+.btn-Green::before {
+    background-color: var(--white-color);
+}
+.btn-Blue::before {
+    background-color: var(--white-color);
+}
+.btn-DarkBlue::before {
+    background-color: var(--white-color);
+}
+.btn-White::before {
+    background-color: var(--dark-blue-color);
+}
+.btn-Grey::before {
+    background-color: var(--dark-blue-color);
+}
+.btn-Black::before {
+    background-color: var(--white-color);
+}
+
 /* Background */
 .bg-Red {
     background-color: var(--red-color);
