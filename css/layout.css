@@ -6,6 +6,7 @@ h1, h2, h3 {
     -webkit-transition: all ease 0.8s !important;
     -moz-transition: all ease 0.8s !important;
     transition: all ease 0.8s !important;
+    margin-top: 20px;
 }
 /* Buttons */
 .btn-Red {
