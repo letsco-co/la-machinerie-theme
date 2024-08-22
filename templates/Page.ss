@@ -8,9 +8,9 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	$MetaTags(false)
 
-	<% require themedCSS('variables') %>
 	<% require themedCSS('reset') %>
 	<% require themedCSS('typography') %>
+	<% require themedCSS('variables') %>
 	<% require themedCSS('layout') %>
 	<link rel="shortcut icon" href="$resourceURL('themes/simple/images/favicon.ico')" />
     <link rel="stylesheet" src="/_resources/themes/lamachinerie/css/custom.css?m=1724072937"/>
