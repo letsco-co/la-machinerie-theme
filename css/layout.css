@@ -202,7 +202,7 @@ h1, h2, h3 {
     justify-content: center;
     align-items: center;
 }
-.simple-slider img, .glide li.glide__slide img {
+.simple-slider img, .glide li.glide__slide > img {
     width: 100% !important;
     height: auto !important;
     max-height: 100px;
@@ -324,4 +324,15 @@ h1, h2, h3 {
 }
 .post-summary > .container .time-container p {
     margin-bottom: 0;
+}
+
+/*blog posts slider*/
+.blogposts-section .glide__arrow--left {
+    left: -5em;
+}
+.blogposts-section .glide__arrow--right {
+    right: -5em;
+}
+.blogposts-section .glide__arrow {
+    box-shadow: none;
 }
