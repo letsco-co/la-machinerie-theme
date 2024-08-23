@@ -290,3 +290,38 @@ h1, h2, h3 {
     display: flex;
     justify-content: center;
 }
+/*Blog*/
+.post-summary {
+    height: 550px;
+    width: 300px;
+    display: block;
+    border-radius: 10px;
+    background-color: var(--dark-blue-color);
+    overflow: hidden;
+    color: var(--white-color);
+    text-decoration: none;
+}
+.post-summary > img {
+    width: 100%;
+    height: 65%;
+    object-fit: cover;
+}
+.post-summary > .container {
+    height: 35%;
+}
+.dynamic__elements__blog__elements__elementblogoverview section > div {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+.post-summary > .container .time-container {
+    display: flex;
+    align-items: flex-end;
+}
+.post-summary > .container .time-container img {
+    margin-right: 10px;
+}
+.post-summary > .container .time-container p {
+    margin-bottom: 0;
+}
