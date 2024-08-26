@@ -450,3 +450,53 @@ h1, h2, h3 {
 .event-pagination li:hover a svg path {
     stroke: var(--blue-color);
 }
+/* Event detail */
+.event-details .event-summary {
+    width: 100%;
+    height: 300px;
+}
+.event-details .event-summary .event-img-container {
+    width: 500px;
+    height: 300px;
+}
+.event-details .event-summary .event-infos-container .event-time::after {
+    content: none;
+}
+.event-details .event-summary .event-infos-container {
+    width: 100%;
+    justify-content: space-between;
+}
+.event-details .event-summary .event-infos-container h1 {
+    margin-bottom: auto;
+}
+.event-details .event-summary .event-infos-container .event-infos {
+    height: unset;
+}
+.event-summary .event-infos-container .event-infos .place, .event-summary .event-infos-container .event-infos .tags {
+    font-size: 1rem;
+
+}
+/* Social share */
+.social-share {
+    display: flex;
+    gap: 20px;
+    margin-top: 10px;
+}
+.social-share .social-icon {
+    width: 50px;
+    background: var(--dark-blue-color);
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s ease;
+}
+.social-share .social-icon:hover {
+    background-color: var(--blue-color);
+}
+.social-share img {
+    width: 60%;
+    height: 60%;
+    object-fit: contain;
+}

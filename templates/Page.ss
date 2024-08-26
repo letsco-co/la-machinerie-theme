@@ -7,7 +7,15 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	$MetaTags(false)
-
+    <meta property="og:url"           content="$Link" />
+    <meta property="og:type"          content="website" />
+    <meta property="og:title"         content="$title" />
+    <% if $MetaDescription %>
+        <meta property="og:description"   content="$MetaDescription" />
+    <% end_if %>
+    <% if $FeaturedImage %>
+        <meta property="og:image"         content="$FeaturedImage" />
+    <% end_if %>
 	<% require themedCSS('reset') %>
 	<% require themedCSS('typography') %>
 	<% require themedCSS('variables') %>
