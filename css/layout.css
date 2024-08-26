@@ -437,3 +437,14 @@ h1, h2, h3 {
 .event-summary .event-infos-container .event-infos .place, .event-summary .event-infos-container .event-infos .tags {
     font-size: 0.8rem;
 }
+/* Event pagination */
+.event-pagination {
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+.event-pagination a svg path {
+    transition: 0.1s ease-in-out;
+}
+.event-pagination li:hover a svg path {
+    stroke: var(--blue-color);
+}
