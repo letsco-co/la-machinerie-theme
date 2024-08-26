@@ -386,6 +386,8 @@ h1, h2, h3 {
     background-color: var(--grey-color);
     width: 500px;
     height: 180px;
+    text-decoration: none;
+    color: var(--black-color);
 }
 .event-summary .event-img-container {
     width: 180px;

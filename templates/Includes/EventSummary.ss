@@ -1,4 +1,4 @@
-<div class="event-summary">
+<a href="$Link" class="event-summary">
     <div class="event-img-container">
         $FeaturedImage
     </div>
@@ -19,4 +19,4 @@
             </div>
         </div>
     </div>
-</div>
+</a>
