@@ -500,3 +500,24 @@ h1, h2, h3 {
     height: 60%;
     object-fit: contain;
 }
+
+/* BlogPost details */
+.blogpost-details{
+    background: var(--grey-color);
+}
+.blogpost-details .blogpost-summary {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.blogpost-details .blogpost-summary .blogpost-img-container {
+    width: 250px;
+    height: 250px;
+}
+.blogpost-details .blogpost-summary .blogpost-img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}

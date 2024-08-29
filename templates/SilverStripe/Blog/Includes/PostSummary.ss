@@ -12,6 +12,6 @@
             <p>$Excerpt</p>
         <% end_if %>
 
-        <div class="time-container"><img src="$resourceURL('themes/lamachinerie/images/mingcute_time-line.png')" alt="time icon"><p>$Created.Date</p></div>
+        <div class="time-container"><img src="$resourceURL('themes/lamachinerie/images/mingcute_time-line.png')" alt="time icon"><p>$PublishDate.Date</p></div>
     </div>
 </a>
