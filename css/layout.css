@@ -562,3 +562,32 @@ h1, h2, h3 {
 .with-menu-container ul li a:hover, .with-menu-container ul li.current a:hover {
     text-decoration: underline;
 }
+
+/* small section with image */
+.section-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.small-section {
+    display: flex;
+    justify-content: space-between;
+}
+.small-section.reverse {
+    flex-direction: row-reverse;
+}
+.small-section .small-section-text {
+    padding: 50px;
+    width: 45%;
+}
+.small-section .small-section-text h3 {
+    margin-bottom: 30px;
+}
+.small-section .small-section-image {
+    width: 55%;
+}
+.small-section .small-section-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
