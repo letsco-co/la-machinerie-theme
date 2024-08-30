@@ -1,10 +1,30 @@
-<footer class="footer" role="contentinfo">
-	<div class="inner">
-		<div class="unit size4of4 lastUnit">
-			<div class="left">
-				<a href="$BaseHref" class="brand" rel="home">$SiteConfig.Title</a>
-				<span class="arrow">&rarr;</span> <% include Navigation %></div>
-			<small class="right"><a href="http://simple.innovatif.com/about/">Theme</a> by Sara (Innovatif) / Powered by <a href="http://silverstripe.org">SilverStripe</a></small>
-		</div>
-	</div>
+<footer>
+    <div class="container">
+        <div class="footer-machinerie">
+            <div>
+                <p>La Machinerie</p>
+                <p>Tiers-lieu & Conciergerie</p>
+            </div>
+            <div>
+                <p>11 rue des peupliers, 38100 Grenoble</p>
+                <a href="mailto:lamachinerie@regiegrenoble.org">lamachinerie@regiegrenoble.org</a>
+                <p>06 30 29 29 40</p>
+            </div>
+        </div>
+        <div class="footer-regie">
+            <div>
+                <p>Un service de</p>
+                <p>la Régie de quartier</p>
+                <p>Villeneuve - Village Olympique - Vigny Musset</p>
+            </div>
+            <div>
+                <p>1 rue des trembles, 38100 Grenoble</p>
+                <a href="mailto:contact@regiegrenoble.org">contact@regiegrenoble.org</a>
+                <p>04 76 23 02 01 </p>
+            </div>
+        </div>
+        <div class="other-infos">
+            <p>Conçu et réalisé par <a href="https://letsco.co" target="_blank">Let's CO</a></p>
+        </div>
+    </div>
 </footer>
