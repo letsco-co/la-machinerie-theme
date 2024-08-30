@@ -638,3 +638,19 @@ form#Form_Control_ElementNewsletterController #Form_Control_ElementNewsletterCon
 form#Form_Control_ElementNewsletterController #Form_Control_ElementNewsletterController_error.error {
     background: var(--red-color);
 }
+
+/*Background Image */
+section[id^="ElementalBackgroundImage-"] {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: var(--white-color);
+}
+section[id^="ElementalBackgroundImage-"] .container {
+    padding: 100px 0;
+    text-align: center;
+}
+section[id^="ElementalBackgroundImage-"] .container h1 {
+    margin-bottom: 0 !important;
+    font-size: 5rem;
+}
