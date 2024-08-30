@@ -592,6 +592,15 @@ h1, h2, h3 {
     object-fit: cover;
 }
 
+@media screen and (max-width: 768px){
+    .small-section .small-section-image {
+        display: none;
+    }
+    .small-section .small-section-text {
+        width: 100%;
+    }
+}
+
 /*Form Newsletter*/
 form#Form_Control_ElementNewsletterController {
     display: flex;
