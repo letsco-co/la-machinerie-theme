@@ -591,3 +591,41 @@ h1, h2, h3 {
     height: 100%;
     object-fit: cover;
 }
+
+/*Form Newsletter*/
+form#Form_Control_ElementNewsletterController {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+form#Form_Control_ElementNewsletterController fieldset input {
+    margin: auto;
+    display: block;
+    border: none;
+    border-bottom: 2px solid var(--black-color);
+    background: none;
+    width: 300px;
+}
+form#Form_Control_ElementNewsletterController .btn-toolbar input {
+    margin: auto;
+    background: var(--red-color);
+    border: none;
+    padding: 10px 50px;
+    text-transform: uppercase;
+    color: var(--white-color);
+    font-weight: bold;
+}
+
+form#Form_Control_ElementNewsletterController #Form_Control_ElementNewsletterController_error {
+    text-align: center;
+    color:var(--white-color);
+    width: fit-content;
+    margin: auto;
+    padding: 10px 20px;
+}
+form#Form_Control_ElementNewsletterController #Form_Control_ElementNewsletterController_error.success {
+    background: var(--green-color);
+}
+form#Form_Control_ElementNewsletterController #Form_Control_ElementNewsletterController_error.error {
+    background: var(--red-color);
+}
