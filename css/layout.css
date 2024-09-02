@@ -682,23 +682,48 @@ header img {
 header nav.primary {
     width: 100%;
 }
-header nav.primary ul {
+header nav.primary ul:not(.dropdown-menu) {
     display: flex;
     padding: 0;
     justify-content: space-between;
 }
-header nav.primary ul li a {
+header nav.primary > ul:not(.dropdown-menu) > li > a, header nav.primary > ul:not(.dropdown-menu) > li > button {
     color: var(--black-color);
     text-decoration: none;
     text-transform: uppercase;
     font-weight: bold;
     transition: 0.2s ease;
 }
-header nav.primary ul li.current a, header nav.primary ul li:hover a {
+header nav.primary > ul > li {
+    position: relative;
+}
+header nav.primary ul li button {
+    background: none;
+    border: none;
+}
+header nav.primary > ul > li.current >a, header nav.primary > ul > li.current >button, header nav.primary > ul > li:hover >a, header nav.primary > ul > li:hover >button, header nav.primary > ul > li ul.dropdown-menu > li:hover > a, header nav.primary > ul > li ul.dropdown-menu > li.current > a {
     color: var(--red-color);
 }
 header .header-mobile {
     display: none;
+}
+header .dropdown-menu {
+    position: absolute;
+    top: 64px;
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    padding: 5px;
+    border-radius: 0;
+    border: 1px var(--grey-color) solid;
+}
+header .dropdown-menu li {
+    margin: 5px 0;
+}
+
+header .dropdown-menu li a {
+    text-decoration: none;
+    color: var(--black-color);
 }
 @media screen and (min-width: 766px) and (max-width: 1190px) {
     header .header-desktop .brand {

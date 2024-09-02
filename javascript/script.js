@@ -1,4 +1,19 @@
 window.addEventListener("load", (event) => {
+    // Dropdown menu
+    const linkWithSubMenu = document.querySelectorAll('nav.primary > ul > li.hasChildren')
+    linkWithSubMenu.forEach((link) => {
+        link.addEventListener('click',(e) => {
+            if (e.target.tagName !== 'A') {
+                e.preventDefault()
+                const target = e.target.parentElement
+                const subMenu = target.querySelector('ul')
+                subMenu.classList.toggle('d-flex')
+            }
+        })
+    })
+
+
+    // Mobile menu
     const menuOpenBtn = document.querySelector('#menu-open');
     const mainMenu = document.querySelector('#mobile-primary')
     const menuCloseBtn = document.querySelector('#menu-close')
