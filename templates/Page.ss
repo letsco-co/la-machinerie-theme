@@ -14,7 +14,7 @@
         <meta property="og:description"   content="$MetaDescription" />
     <% end_if %>
     <% if $FeaturedImage %>
-        <meta property="og:image"         content="$FeaturedImage" />
+        <meta property="og:image"         content="$FeaturedImage.AbsoluteLink" />
     <% end_if %>
 	<% require themedCSS('reset') %>
 	<% require themedCSS('typography') %>
