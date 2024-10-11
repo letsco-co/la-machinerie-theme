@@ -848,3 +848,12 @@ footer a {
         grid-template-columns: repeat(1, 1fr);
     }
 }
+
+@media screen and (max-width: 800px) {
+    .SideMenuPage aside {
+        display: none;
+    }
+    .SideMenuPage .main-container {
+        width: 100%;
+    }
+}
