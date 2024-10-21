@@ -849,7 +849,7 @@ footer a {
     }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1110px) {
     .SideMenuPage aside {
         display: none;
     }
