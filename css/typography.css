@@ -19,52 +19,35 @@
 
   /* add your own custom fonts here */
 @font-face {
-    font-family: 'Montserrat';
-    src: url('../webfonts/Montserrat-VariableFont_wght.ttf');
-}
-@font-face {
-  font-family: 'Roboto medium';
-  src: url('../webfonts/Roboto-Medium.ttf');
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-    font-family: 'Roboto Light';
-    src: url('../webfonts/Roboto-Light.ttf');
+    font-family: 'CooperHewitt medium';
+    src: url('../webfonts/CooperHewitt-Medium.woff');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
-    font-family: 'Roboto bold';
-    src: url('../webfonts/Roboto-Bold.ttf');
+    font-family: 'CooperHewitt bold';
+    src: url('../webfonts/CooperHewitt-Semibold.woff');
     font-weight: bold;
     font-style: normal;
 }
 @font-face {
-    font-family: 'Roboto italic';
-    src: url('../webfonts/Roboto-Italic.ttf');
+    font-family: 'CooperHewitt italic';
+    src: url('../webfonts/CooperHewitt-MediumItalic.woff');
     font-weight: normal;
     font-style: italic;
 }
-@font-face {
-    font-family: 'Roboto Light italic';
-    src: url('../webfonts/Roboto-LightItalic.ttf');
-    font-weight: normal;
-    font-style: italic;
-}
-@font-face {
-    font-family: 'Roboto italic bold';
-    src: url('../webfonts/Roboto-BoldItalic.ttf');
-    font-weight: bold;
-    font-style: italic;
-}
-
 /* BASE TYPOGRPHY */
 
 /* These are the default styles for the Simple theme */
 body {
-    font-family: 'Montserrat', sans-serif !important;
+    font-family: 'CooperHewitt medium', sans-serif !important;
 }
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Roboto medium', sans-serif !important;
+    font-family: 'CooperHewitt medium', sans-serif !important;
+}
+strong {
+    font-family: 'CooperHewitt bold', sans-serif !important;
+}
+em {
+    font-family: 'CooperHewitt italic', sans-serif !important;
 }
