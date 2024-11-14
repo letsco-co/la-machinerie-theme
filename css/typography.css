@@ -25,8 +25,14 @@
     font-style: normal;
 }
 @font-face {
-    font-family: 'CooperHewitt bold';
+    font-family: 'CooperHewitt semi bold';
     src: url('../webfonts/CooperHewitt-Semibold.woff');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'CooperHewitt bold';
+    src: url('../webfonts/CooperHewitt-Bold.woff');
     font-weight: bold;
     font-style: normal;
 }
@@ -46,8 +52,11 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'CooperHewitt medium', sans-serif !important;
 }
 strong {
-    font-family: 'CooperHewitt bold', sans-serif !important;
+    font-family: 'CooperHewitt semi bold', sans-serif !important;
 }
 em {
     font-family: 'CooperHewitt italic', sans-serif !important;
+}
+a.btn {
+    font-family: 'CooperHewitt bold', sans-serif !important;
 }
