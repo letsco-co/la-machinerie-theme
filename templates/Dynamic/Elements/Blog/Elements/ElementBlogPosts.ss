@@ -27,8 +27,8 @@
         <div class="row mb-3">
             <div class="col-md-12 text-center">
                 <p>
-                    <a href="$Blog.Link" class="btn btn-primary" title="View all $Title posts">
-                        View all posts
+                    <a href="$Blog.Link" class="btn btn-Blue" title="View all $Title posts">
+                        Voir toutes les actualités
                     </a>
                 </p>
             </div>
