@@ -1,5 +1,5 @@
-<section class="bg-Grey">
-    <div class="container py-5">
+<div class="bg-Grey">
+    <section class="container py-5">
         <div class="content-element__content<% if $Style %> $StyleVariant<% end_if %>">
             <% if $PaginatedList.Exists %>
                 <% loop $PaginatedList %>
@@ -22,6 +22,6 @@
                 <% include SilverStripe\\Blog\\BlogSideBar %>
             </aside>
         <% end_if %>
-    </div>
-</section>
+    </section>
+</div>
 
