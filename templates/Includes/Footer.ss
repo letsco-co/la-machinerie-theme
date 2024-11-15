@@ -24,6 +24,7 @@
             </div>
         </div>
         <div class="other-infos">
+            <a href="$TCUPage.Link">$TCUPage.Title</a>
             <p>Conçu et réalisé par <a href="https://letsco.co" target="_blank">Let's CO</a></p>
         </div>
     </div>
