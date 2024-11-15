@@ -1,5 +1,5 @@
 <section class="container py-5">
-    <% if $ShowPagination && $Events.Exists %>
+    <% if $ShowPagination %>
         <nav>
             <% include EventsPagination %>
         </nav>
