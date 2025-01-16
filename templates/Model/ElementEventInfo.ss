@@ -7,7 +7,7 @@
             <div class="event-infos-container">
                 <div class="event-time">
                     <p class="date">$Date.Format('EEEE d MMMM')</p>
-                    <p class="time">$StartTime.Format('H')h - $EndTime.Format('H')h</p>
+                    <p class="time">$getFormatedTime</p>
                 </div>
                 <h1>$Title</h1>
                 <div class="event-infos">
